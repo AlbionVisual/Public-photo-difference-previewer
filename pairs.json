@@ -1,6 +1,114 @@
 {
   "pairs": [
     {
+      "slug": "center-01-gogolia3",
+      "title": "Центр Gogolia3: оригинал / WebP q90 (как в кэше)",
+      "a": "pairs/center-01-gogolia3/a.jpg",
+      "b": "pairs/center-01-gogolia3/b.webp"
+    },
+    {
+      "slug": "center-02-zhambyla4",
+      "title": "Центр Zhambyla4: оригинал / WebP q90 (как в кэше)",
+      "a": "pairs/center-02-zhambyla4/a.jpg",
+      "b": "pairs/center-02-zhambyla4/b.webp"
+    },
+    {
+      "slug": "center-03-zheltoksan",
+      "title": "Центр Zheltoksan: оригинал / WebP q90 (как в кэше)",
+      "a": "pairs/center-03-zheltoksan/a.jpg",
+      "b": "pairs/center-03-zheltoksan/b.webp"
+    },
+    {
+      "slug": "center-04-saina1",
+      "title": "Центр Saina1: оригинал / WebP q90 (как в кэше)",
+      "a": "pairs/center-04-saina1/a.jpg",
+      "b": "pairs/center-04-saina1/b.webp"
+    },
+    {
+      "slug": "center-05-nauryzbai12",
+      "title": "Центр Nauryzbai12: оригинал / WebP q90 (как в кэше)",
+      "a": "pairs/center-05-nauryzbai12/a.jpg",
+      "b": "pairs/center-05-nauryzbai12/b.webp"
+    },
+    {
+      "slug": "center-06-auezov5",
+      "title": "Центр Auezov5: оригинал / WebP q90 (как в кэше)",
+      "a": "pairs/center-06-auezov5/a.jpg",
+      "b": "pairs/center-06-auezov5/b.webp"
+    },
+    {
+      "slug": "center-07-gogolia1",
+      "title": "Центр Gogolia1: оригинал / WebP q90 (как в кэше)",
+      "a": "pairs/center-07-gogolia1/a.jpg",
+      "b": "pairs/center-07-gogolia1/b.webp"
+    },
+    {
+      "slug": "center-08-nauryzbai21",
+      "title": "Центр Nauryzbai21: оригинал / WebP q90 (как в кэше)",
+      "a": "pairs/center-08-nauryzbai21/a.jpg",
+      "b": "pairs/center-08-nauryzbai21/b.webp"
+    },
+    {
+      "slug": "center-09-alatau39",
+      "title": "Центр Alatau39: оригинал / WebP q90 (как в кэше)",
+      "a": "pairs/center-09-alatau39/a.jpg",
+      "b": "pairs/center-09-alatau39/b.webp"
+    },
+    {
+      "slug": "center-10-auezov4",
+      "title": "Центр Auezov4: оригинал / WebP q90 (как в кэше)",
+      "a": "pairs/center-10-auezov4/a.jpg",
+      "b": "pairs/center-10-auezov4/b.webp"
+    },
+    {
+      "slug": "center-11-nauryzbai24",
+      "title": "Центр Nauryzbai24: оригинал / WebP q90 (как в кэше)",
+      "a": "pairs/center-11-nauryzbai24/a.jpg",
+      "b": "pairs/center-11-nauryzbai24/b.webp"
+    },
+    {
+      "slug": "center-12-medeu2",
+      "title": "Центр Medeu2: оригинал / WebP q90 (как в кэше)",
+      "a": "pairs/center-12-medeu2/a.jpg",
+      "b": "pairs/center-12-medeu2/b.webp"
+    },
+    {
+      "slug": "center-13-zhetysu14",
+      "title": "Центр Zhetysu14: оригинал / WebP q90 (как в кэше)",
+      "a": "pairs/center-13-zhetysu14/a.jpg",
+      "b": "pairs/center-13-zhetysu14/b.webp"
+    },
+    {
+      "slug": "center-14-medeu3",
+      "title": "Центр Medeu3: оригинал / WebP q90 (как в кэше)",
+      "a": "pairs/center-14-medeu3/a.jpg",
+      "b": "pairs/center-14-medeu3/b.webp"
+    },
+    {
+      "slug": "center-15-turksib7",
+      "title": "Центр Turksib7: оригинал / WebP q90 (как в кэше)",
+      "a": "pairs/center-15-turksib7/a.jpg",
+      "b": "pairs/center-15-turksib7/b.webp"
+    },
+    {
+      "slug": "center-16-beiseuova1",
+      "title": "Центр Beiseuova1: оригинал / WebP q90 (как в кэше)",
+      "a": "pairs/center-16-beiseuova1/a.jpg",
+      "b": "pairs/center-16-beiseuova1/b.webp"
+    },
+    {
+      "slug": "center-17-kabanbaibatyra2",
+      "title": "Центр KabanbaiBatyra2: оригинал / WebP q90 (как в кэше)",
+      "a": "pairs/center-17-kabanbaibatyra2/a.jpg",
+      "b": "pairs/center-17-kabanbaibatyra2/b.webp"
+    },
+    {
+      "slug": "center-18-huseinbintallal1",
+      "title": "Центр HuseinBinTallal1: оригинал / WebP q90 (как в кэше)",
+      "a": "pairs/center-18-huseinbintallal1/a.jpg",
+      "b": "pairs/center-18-huseinbintallal1/b.webp"
+    },
+    {
       "slug": "demo-city",
       "title": "Демо: машина сдвинулась и включили свет",
       "a": "pairs/demo-city/a.jpg",
@@ -11,6 +119,30 @@
       "title": "Демо: цветокоррекция и резкость",
       "a": "pairs/demo-grade/a.jpg",
       "b": "pairs/demo-grade/b.jpg"
+    },
+    {
+      "slug": "overlap-gogolia3-zheltoksan",
+      "title": "Пересечение Gogolia3 ↔ Zheltoksan",
+      "a": "pairs/overlap-gogolia3-zheltoksan/a.jpg",
+      "b": "pairs/overlap-gogolia3-zheltoksan/b.jpg"
+    },
+    {
+      "slug": "overlap-gogolia3-zheltoksan-2",
+      "title": "Пересечение Gogolia3 ↔ Zheltoksan (ближе)",
+      "a": "pairs/overlap-gogolia3-zheltoksan-2/a.jpg",
+      "b": "pairs/overlap-gogolia3-zheltoksan-2/b.jpg"
+    },
+    {
+      "slug": "overlap-zhambyla4-zheltoksan",
+      "title": "Пересечение Zhambyla4 ↔ Zheltoksan",
+      "a": "pairs/overlap-zhambyla4-zheltoksan/a.jpg",
+      "b": "pairs/overlap-zhambyla4-zheltoksan/b.jpg"
+    },
+    {
+      "slug": "overlap-zhambyla4-zheltoksan-2",
+      "title": "Пересечение Zhambyla4 ↔ Zheltoksan (ближе)",
+      "a": "pairs/overlap-zhambyla4-zheltoksan-2/a.jpg",
+      "b": "pairs/overlap-zhambyla4-zheltoksan-2/b.jpg"
     }
   ]
 }
