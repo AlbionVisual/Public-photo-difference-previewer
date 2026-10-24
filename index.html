@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Photo Compare — сравнение пар изображений</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <div class="brand">
+    <b>Photo&nbsp;Compare</b>
+    <span class="mut" id="counter"></span>
+  </div>
+
+  <div class="picker">
+    <button class="icon" id="prev" title="Предыдущая пара (P)">‹</button>
+    <select id="pairSel" aria-label="Пара изображений"></select>
+    <button class="icon" id="next" title="Следующая пара (N)">›</button>
+  </div>
+
+  <div class="tools">
+    <button id="anim" title="Показать движение шторки (A)">Движение</button>
+    <button id="reset" title="Сбросить зум (0)">Сброс</button>
+    <span class="mut" id="zoomInfo">100%</span>
+  </div>
+</header>
+
+<main id="viewport" aria-label="Сравнение изображений">
+  <div class="layer base">
+    <div class="scene" id="sceneB">
+      <img id="imgB" alt="Второе изображение" draggable="false">
+    </div>
+  </div>
+
+  <div class="layer top" id="topLayer">
+    <div class="scene" id="sceneA">
+      <img id="imgA" alt="Первое изображение" draggable="false">
+    </div>
+  </div>
+
+  <div id="knob" role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"
+       tabindex="0" title="Тяните влево/вправо (←/→)">
+    <span id="knobLabel">50%</span>
+    <span class="grip" aria-hidden="true"></span>
+  </div>
+
+  <div id="hint" class="hint">Колесо — зум · перетаскивание — панорама · шторка — за верхний ползунок</div>
+  <div id="status" class="status" hidden></div>
+</main>
+
+<footer class="foot">
+  <span class="mut">Пара: <b id="pairTitle">—</b></span>
+  <span class="mut" id="pairFiles"></span>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

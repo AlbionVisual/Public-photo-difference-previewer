@@ -1,0 +1,16 @@
+{
+  "pairs": [
+    {
+      "slug": "demo-city",
+      "title": "Демо: машина сдвинулась и включили свет",
+      "a": "pairs/demo-city/a.jpg",
+      "b": "pairs/demo-city/b.jpg"
+    },
+    {
+      "slug": "demo-grade",
+      "title": "Демо: цветокоррекция и резкость",
+      "a": "pairs/demo-grade/a.jpg",
+      "b": "pairs/demo-grade/b.jpg"
+    }
+  ]
+}
