@@ -1,1 +1,1 @@
-{"title": "z21 · PNG (lossless) ↔ WebP q90", "a": "formats/z21/png.png", "b": "formats/z21/w90.webp", "labelA": "PNG (lossless)", "labelB": "WebP q90", "zoom": 21}
+{"title": "z21 · Оригинал (PNG) ↔ WebP q90 (как в кэше)", "a": "formats/z21/png.png", "b": "formats/z21/w90.webp", "labelA": "PNG (lossless)", "labelB": "WebP q90", "zoom": 21, "hideLabels": true}

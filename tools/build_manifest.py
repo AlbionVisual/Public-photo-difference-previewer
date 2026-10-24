@@ -47,6 +47,8 @@ def main() -> int:
             print(f"пропуск {d.name}: нужны a.* и b.* (или a/b в meta.json)")
             continue
         item = {"slug": d.name, "title": meta.get("title", d.name), "a": a, "b": b}
+        if meta.get("hideLabels"):
+            item["hideLabels"] = True
         for k in ("labelA", "labelB", "zoom"):
             if meta.get(k):
                 item[k] = meta[k]

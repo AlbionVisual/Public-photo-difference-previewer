@@ -96,8 +96,13 @@
       el.textContent = text || "";
       el.hidden = !text;
     };
-    setLabel(labelA, p.labelA || base(p.a));
-    setLabel(labelB, p.labelB || base(p.b));
+    if (p.hideLabels) {
+      setLabel(labelA, "");
+      setLabel(labelB, "");
+    } else {
+      setLabel(labelA, p.labelA || base(p.a));
+      setLabel(labelB, p.labelB || base(p.b));
+    }
     history.replaceState(null, "", `#${encodeURIComponent(p.slug || i)}`);
     state.pct = 50;
     applyClip();
