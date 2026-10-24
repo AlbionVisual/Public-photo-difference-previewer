@@ -19,6 +19,8 @@
   const zoomInfo = $("zoomInfo");
   const statusEl = $("status");
   const hintEl = $("hint");
+  const labelA = $("labelA");
+  const labelB = $("labelB");
 
   const MAX_ZOOM = 32;
   const state = {
@@ -88,6 +90,14 @@
     sel.value = String(i);
     pairTitle.textContent = p.title || p.slug;
     pairFiles.textContent = `${p.a} ↔ ${p.b}`;
+    // Подписи форматов в углах: из meta.json (labelA/labelB) или имена файлов.
+    const base = (x) => (x ? x.split("/").pop() : "");
+    const setLabel = (el, text) => {
+      el.textContent = text || "";
+      el.hidden = !text;
+    };
+    setLabel(labelA, p.labelA || base(p.a));
+    setLabel(labelB, p.labelB || base(p.b));
     history.replaceState(null, "", `#${encodeURIComponent(p.slug || i)}`);
     state.pct = 50;
     applyClip();
@@ -159,6 +169,8 @@
     const t = `translate(${state.tx}px, ${state.ty}px) scale(${state.scale})`;
     sceneA.style.transform = t;
     sceneB.style.transform = t;
+    // при сильном зуме показываем реальные пиксели (без сглаживания)
+    vp.classList.toggle("pixelated", state.scale >= 4);
     zoomInfo.textContent = `${Math.round(state.scale * 100)}%`;
   }
 

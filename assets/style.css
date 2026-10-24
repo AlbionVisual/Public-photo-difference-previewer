@@ -100,6 +100,8 @@ main#viewport.sliding  { cursor: ew-resize; }
   will-change: transform;
 }
 
+#viewport.pixelated .scene img { image-rendering: pixelated; }
+
 .scene img {
   position: absolute;
   left: 0;
@@ -155,6 +157,26 @@ main#viewport.sliding  { cursor: ew-resize; }
   border-color: var(--acc);
   color: #fff;
 }
+
+.corner {
+  position: absolute;
+  top: 8px;
+  z-index: 4;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background: #0d1117e6;
+  border: 1px solid #8b98a566;
+  color: var(--tx);
+  font-size: 12.5px;
+  font-weight: 600;
+  max-width: 44%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.corner.left { left: 10px; }
+.corner.right { right: 10px; }
 
 .hint, .status {
   position: absolute;

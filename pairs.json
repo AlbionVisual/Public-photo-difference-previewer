@@ -121,6 +121,96 @@
       "b": "pairs/demo-grade/b.jpg"
     },
     {
+      "slug": "fmt-z19-png-w90",
+      "title": "z19 · PNG (lossless) ↔ WebP q90",
+      "a": "formats/z19/png.png",
+      "b": "formats/z19/w90.webp",
+      "labelA": "PNG (lossless)",
+      "labelB": "WebP q90",
+      "zoom": 19
+    },
+    {
+      "slug": "fmt-z19-w80-w60",
+      "title": "z19 · WebP q80 ↔ WebP q60",
+      "a": "formats/z19/w80.webp",
+      "b": "formats/z19/w60.webp",
+      "labelA": "WebP q80",
+      "labelB": "WebP q60",
+      "zoom": 19
+    },
+    {
+      "slug": "fmt-z19-w90-w80",
+      "title": "z19 · WebP q90 ↔ WebP q80",
+      "a": "formats/z19/w90.webp",
+      "b": "formats/z19/w80.webp",
+      "labelA": "WebP q90",
+      "labelB": "WebP q80",
+      "zoom": 19
+    },
+    {
+      "slug": "fmt-z20-png-w90",
+      "title": "z20 · PNG (lossless) ↔ WebP q90",
+      "a": "formats/z20/png.png",
+      "b": "formats/z20/w90.webp",
+      "labelA": "PNG (lossless)",
+      "labelB": "WebP q90",
+      "zoom": 20
+    },
+    {
+      "slug": "fmt-z20-w80-w60",
+      "title": "z20 · WebP q80 ↔ WebP q60",
+      "a": "formats/z20/w80.webp",
+      "b": "formats/z20/w60.webp",
+      "labelA": "WebP q80",
+      "labelB": "WebP q60",
+      "zoom": 20
+    },
+    {
+      "slug": "fmt-z20-w90-w80",
+      "title": "z20 · WebP q90 ↔ WebP q80",
+      "a": "formats/z20/w90.webp",
+      "b": "formats/z20/w80.webp",
+      "labelA": "WebP q90",
+      "labelB": "WebP q80",
+      "zoom": 20
+    },
+    {
+      "slug": "fmt-z21-png-w60",
+      "title": "z21 · PNG (lossless) ↔ WebP q60",
+      "a": "formats/z21/png.png",
+      "b": "formats/z21/w60.webp",
+      "labelA": "PNG (lossless)",
+      "labelB": "WebP q60",
+      "zoom": 21
+    },
+    {
+      "slug": "fmt-z21-png-w90",
+      "title": "z21 · PNG (lossless) ↔ WebP q90",
+      "a": "formats/z21/png.png",
+      "b": "formats/z21/w90.webp",
+      "labelA": "PNG (lossless)",
+      "labelB": "WebP q90",
+      "zoom": 21
+    },
+    {
+      "slug": "fmt-z21-w80-w60",
+      "title": "z21 · WebP q80 ↔ WebP q60",
+      "a": "formats/z21/w80.webp",
+      "b": "formats/z21/w60.webp",
+      "labelA": "WebP q80",
+      "labelB": "WebP q60",
+      "zoom": 21
+    },
+    {
+      "slug": "fmt-z21-w90-w80",
+      "title": "z21 · WebP q90 ↔ WebP q80",
+      "a": "formats/z21/w90.webp",
+      "b": "formats/z21/w80.webp",
+      "labelA": "WebP q90",
+      "labelB": "WebP q80",
+      "zoom": 21
+    },
+    {
       "slug": "overlap-gogolia3-zheltoksan",
       "title": "Пересечение Gogolia3 ↔ Zheltoksan",
       "a": "pairs/overlap-gogolia3-zheltoksan/a.jpg",

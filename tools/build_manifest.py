@@ -33,18 +33,24 @@ def main() -> int:
     for d in sorted(p for p in PAIRS.iterdir() if p.is_dir()):
         if d.name.startswith("."):
             continue
-        a, b = find(d, "a"), find(d, "b")
-        if not a or not b:
-            print(f"пропуск {d.name}: нужны a.* и b.*")
-            continue
-        title = d.name
-        meta = d / "meta.json"
-        if meta.is_file():
+        meta = {}
+        mf = d / "meta.json"
+        if mf.is_file():
             try:
-                title = json.loads(meta.read_text(encoding="utf-8")).get("title", title)
+                meta = json.loads(mf.read_text(encoding="utf-8"))
             except Exception as e:
                 print(f"meta.json в {d.name}: {e}")
-        items.append({"slug": d.name, "title": title, "a": a, "b": b})
+        # a/b можно задать явно в meta.json (тогда файлы могут лежать вне папки пары)
+        a = meta.get("a") or find(d, "a")
+        b = meta.get("b") or find(d, "b")
+        if not a or not b:
+            print(f"пропуск {d.name}: нужны a.* и b.* (или a/b в meta.json)")
+            continue
+        item = {"slug": d.name, "title": meta.get("title", d.name), "a": a, "b": b}
+        for k in ("labelA", "labelB", "zoom"):
+            if meta.get(k):
+                item[k] = meta[k]
+        items.append(item)
     (ROOT / "pairs.json").write_text(
         json.dumps({"pairs": items}, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
